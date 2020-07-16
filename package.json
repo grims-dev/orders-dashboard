@@ -28,6 +28,7 @@
     "react-helmet": "^6.1.0",
     "react-paginate": "^6.3.2",
     "react-toastify": "^6.0.8",
+    "sqlite3": "^5.0.0",
     "styled-components": "^5.1.1",
     "typescript": "^3.9.6"
   },
@@ -79,7 +80,6 @@
     "nodemon": "^2.0.4",
     "react-scripts": "^3.4.1",
     "sinon": "^9.0.2",
-    "sqlite3": "^5.0.0",
     "supertest": "^4.0.2",
     "ts-jest": "^26.1.1"
   },
