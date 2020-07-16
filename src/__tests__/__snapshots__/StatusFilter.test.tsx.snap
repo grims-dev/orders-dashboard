@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Status Filter renders successfully renders snapshot of Status Filter 1`] = `
+<StatusFilter
+  handleStatusSelect={[MockFunction]}
+  selectedFilter="readytotry"
+>
+  <styled.div
+    data-test="statusfilter"
+  >
+    <div
+      className="sc-AxjAm rSFOJ"
+      data-test="statusfilter"
+    >
+      <button
+        className="status readytotry status-selected"
+        data-status="readytotry"
+        onClick={[Function]}
+      >
+        Ready to Try
+      </button>
+      <button
+        className="status ontheway false"
+        data-status="ontheway"
+        onClick={[Function]}
+      >
+        On the Way
+      </button>
+      <button
+        className="status inthequeue false"
+        data-status="inthequeue"
+        onClick={[Function]}
+      >
+        In the Queue
+      </button>
+      <button
+        className="status outofstock false"
+        data-status="outofstock"
+        onClick={[Function]}
+      >
+        Out of Stock
+      </button>
+    </div>
+  </styled.div>
+</StatusFilter>
+`;
+
+exports[`Status Filter renders successfully renders without crashing 1`] = `
+Array [
+  <styled.div
+    data-test="statusfilter"
+  >
+    <div
+      className="sc-AxjAm rSFOJ"
+      data-test="statusfilter"
+    >
+      <button
+        className="status readytotry status-selected"
+        data-status="readytotry"
+        onClick={[Function]}
+      >
+        Ready to Try
+      </button>
+      <button
+        className="status ontheway false"
+        data-status="ontheway"
+        onClick={[Function]}
+      >
+        On the Way
+      </button>
+      <button
+        className="status inthequeue false"
+        data-status="inthequeue"
+        onClick={[Function]}
+      >
+        In the Queue
+      </button>
+      <button
+        className="status outofstock false"
+        data-status="outofstock"
+        onClick={[Function]}
+      >
+        Out of Stock
+      </button>
+    </div>
+  </styled.div>,
+  <div
+    className="sc-AxjAm rSFOJ"
+    data-test="statusfilter"
+  >
+    <button
+      className="status readytotry status-selected"
+      data-status="readytotry"
+      onClick={[Function]}
+    >
+      Ready to Try
+    </button>
+    <button
+      className="status ontheway false"
+      data-status="ontheway"
+      onClick={[Function]}
+    >
+      On the Way
+    </button>
+    <button
+      className="status inthequeue false"
+      data-status="inthequeue"
+      onClick={[Function]}
+    >
+      In the Queue
+    </button>
+    <button
+      className="status outofstock false"
+      data-status="outofstock"
+      onClick={[Function]}
+    >
+      Out of Stock
+    </button>
+  </div>,
+]
+`;

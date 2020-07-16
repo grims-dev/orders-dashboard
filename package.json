@@ -1,0 +1,95 @@
+{
+  "name": "orders-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:4001",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^5.11.0",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^26.0.4",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.0.0",
+    "@types/react-paginate": "^6.2.1",
+    "@types/styled-components": "^5.1.1",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.23.3",
+    "knex": "^0.21.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-paginate": "^6.3.2",
+    "react-toastify": "^6.0.8",
+    "styled-components": "^5.1.1",
+    "typescript": "^3.9.6"
+  },
+  "scripts": {
+    "build": "node ./buildScript",
+    "build-front": "react-scripts build",
+    "start-server": "nodemon server/server.js --watch server/*",
+    "start-front": "react-scripts start",
+    "start-dev": "concurrently \"npm run start-server\" \"npm run start-front\" --kill-others --kill-others-on-fail",
+    "start": "node ./server/server.js",
+    "test-frontend": "yarn jest",
+    "eject": "react-scripts eject",
+    "test-server:unit": "mocha --require @babel/register 'test/*' --exit",
+    "knex": "knex"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "@babel/runtime": "^7.10.4",
+    "@types/chai": "^4.2.11",
+    "@types/chai-http": "^4.2.0",
+    "@types/enzyme": "^3.10.5",
+    "@types/enzyme-adapter-react-16": "^1.0.6",
+    "@types/express": "^4.17.7",
+    "babel-jest": "^24.9.0",
+    "chai": "^4.2.0",
+    "concurrently": "^5.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-to-json": "^3.5.0",
+    "identity-obj-proxy": "^3.0.0",
+    "mocha": "^8.0.1",
+    "nodemon": "^2.0.4",
+    "react-scripts": "^3.4.1",
+    "sinon": "^9.0.2",
+    "sqlite3": "^5.0.0",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.1.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-transform-runtime"
+      ]
+    ]
+  }
+}

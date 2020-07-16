@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination renders successfully renders snapshot of Pagination 1`] = `
+<Pagination
+  currentpage={1}
+  onPageChanged={[MockFunction]}
+  pageLimit={5}
+  pageNeighbours={1}
+  totalRecords={20}
+>
+  <styled.div
+    aria-label="Order Pagination"
+    data-test="pagination"
+  >
+    <div
+      aria-label="Order Pagination"
+      className="sc-AxjAm ezKIGv"
+      data-test="pagination"
+    >
+      <styled.div>
+        <div
+          className="sc-AxirZ gmSlgV"
+        >
+          <li
+            className="page-item active"
+            key="0"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="1"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="2"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="3"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+        </div>
+      </styled.div>
+      <div
+        className="page-counter"
+      >
+        <span
+          className="page-number border-right"
+        >
+          01
+        </span>
+         
+        <span
+          className="page-number secondary"
+        >
+          04
+        </span>
+      </div>
+    </div>
+  </styled.div>
+</Pagination>
+`;
+
+exports[`Pagination renders successfully renders without crashing 1`] = `
+Array [
+  <styled.div
+    aria-label="Order Pagination"
+    data-test="pagination"
+  >
+    <div
+      aria-label="Order Pagination"
+      className="sc-AxjAm ezKIGv"
+      data-test="pagination"
+    >
+      <styled.div>
+        <div
+          className="sc-AxirZ gmSlgV"
+        >
+          <li
+            className="page-item active"
+            key="0"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="1"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="2"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+          <li
+            className="page-item"
+            key="3"
+          >
+            <span
+              className="page-link"
+              onClick={[Function]}
+            />
+          </li>
+        </div>
+      </styled.div>
+      <div
+        className="page-counter"
+      >
+        <span
+          className="page-number border-right"
+        >
+          01
+        </span>
+         
+        <span
+          className="page-number secondary"
+        >
+          04
+        </span>
+      </div>
+    </div>
+  </styled.div>,
+  <div
+    aria-label="Order Pagination"
+    className="sc-AxjAm ezKIGv"
+    data-test="pagination"
+  >
+    <styled.div>
+      <div
+        className="sc-AxirZ gmSlgV"
+      >
+        <li
+          className="page-item active"
+          key="0"
+        >
+          <span
+            className="page-link"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="page-item"
+          key="1"
+        >
+          <span
+            className="page-link"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="page-item"
+          key="2"
+        >
+          <span
+            className="page-link"
+            onClick={[Function]}
+          />
+        </li>
+        <li
+          className="page-item"
+          key="3"
+        >
+          <span
+            className="page-link"
+            onClick={[Function]}
+          />
+        </li>
+      </div>
+    </styled.div>
+    <div
+      className="page-counter"
+    >
+      <span
+        className="page-number border-right"
+      >
+        01
+      </span>
+       
+      <span
+        className="page-number secondary"
+      >
+        04
+      </span>
+    </div>
+  </div>,
+]
+`;

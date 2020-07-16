@@ -1,0 +1,356 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders successfully renders 1`] = `
+<div
+  class="form-wrapper"
+  data-test="productform"
+>
+  <div
+    class="form-row"
+  >
+    <fieldset>
+      <label
+        class="form-label"
+        for="product_name"
+      >
+        Product Name:
+      </label>
+      <input
+        class="form-input"
+        id="product_name"
+        name="product_name"
+        type="text"
+        value=""
+      />
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="category"
+      >
+        Category:
+      </label>
+      <input
+        class="form-input"
+        id="category"
+        name="category"
+        type="text"
+        value=""
+      />
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="size"
+      >
+        Size:
+      </label>
+      <select
+        class="form-input"
+        id="status"
+        name="size"
+      >
+        <option
+          selected=""
+          value=""
+        >
+          -- Select order size --
+        </option>
+        <option
+          value="8"
+        >
+          8
+        </option>
+        <option
+          value="9"
+        >
+          9
+        </option>
+        <option
+          value="10"
+        >
+          10
+        </option>
+        <option
+          value="11"
+        >
+          11
+        </option>
+      </select>
+       
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="colour"
+      >
+        Colour:
+      </label>
+      <input
+        class="form-input"
+        id="colour"
+        name="colour"
+        type="text"
+        value=""
+      />
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="title"
+      >
+        Status:
+      </label>
+      <select
+        class="form-input"
+        id="status"
+        name="productstatus"
+      >
+        <option
+          selected=""
+          value=""
+        >
+          -- Select order status --
+        </option>
+        <option
+          value="readytotry"
+        >
+          Ready to try
+        </option>
+        <option
+          value="ontheway"
+        >
+          On the way
+        </option>
+        <option
+          value="inthequeue"
+        >
+          In the queue
+        </option>
+        <option
+          value="outofstock"
+        >
+          Out of stock
+        </option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="customers_initials"
+      >
+        Customer initials:
+      </label>
+      <input
+        class="form-input"
+        id="customers_initials"
+        maxlength="2"
+        name="category"
+        type="text"
+        value=""
+      />
+    </fieldset>
+    <fieldset>
+      <label
+        class="form-label"
+        for="product_image"
+      >
+        Product Image:
+      </label>
+      <input
+        class="form-input"
+        id="product_image"
+        name="product_image"
+        placeholder="upload an image"
+        type="file"
+      />
+    </fieldset>
+  </div>
+  <button
+    class="btn btn-add"
+  >
+    Add product
+  </button>
+</div>
+`;
+
+exports[`Product renders successfully renders snapshot of add product form 1`] = `
+<div
+  class="sc-AxjAm dCBNBl"
+>
+  <h1>
+    Add new Order
+  </h1>
+  <div
+    class="form-wrapper"
+    data-test="productform"
+  >
+    <div
+      class="form-row"
+    >
+      <fieldset>
+        <label
+          class="form-label"
+          for="product_name"
+        >
+          Product Name:
+        </label>
+        <input
+          class="form-input"
+          id="product_name"
+          name="product_name"
+          type="text"
+          value=""
+        />
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="category"
+        >
+          Category:
+        </label>
+        <input
+          class="form-input"
+          id="category"
+          name="category"
+          type="text"
+          value=""
+        />
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="size"
+        >
+          Size:
+        </label>
+        <select
+          class="form-input"
+          id="status"
+          name="size"
+        >
+          <option
+            selected=""
+            value=""
+          >
+            -- Select order size --
+          </option>
+          <option
+            value="8"
+          >
+            8
+          </option>
+          <option
+            value="9"
+          >
+            9
+          </option>
+          <option
+            value="10"
+          >
+            10
+          </option>
+          <option
+            value="11"
+          >
+            11
+          </option>
+        </select>
+         
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="colour"
+        >
+          Colour:
+        </label>
+        <input
+          class="form-input"
+          id="colour"
+          name="colour"
+          type="text"
+          value=""
+        />
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="title"
+        >
+          Status:
+        </label>
+        <select
+          class="form-input"
+          id="status"
+          name="productstatus"
+        >
+          <option
+            selected=""
+            value=""
+          >
+            -- Select order status --
+          </option>
+          <option
+            value="readytotry"
+          >
+            Ready to try
+          </option>
+          <option
+            value="ontheway"
+          >
+            On the way
+          </option>
+          <option
+            value="inthequeue"
+          >
+            In the queue
+          </option>
+          <option
+            value="outofstock"
+          >
+            Out of stock
+          </option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="customers_initials"
+        >
+          Customer initials:
+        </label>
+        <input
+          class="form-input"
+          id="customers_initials"
+          maxlength="2"
+          name="category"
+          type="text"
+          value=""
+        />
+      </fieldset>
+      <fieldset>
+        <label
+          class="form-label"
+          for="product_image"
+        >
+          Product Image:
+        </label>
+        <input
+          class="form-input"
+          id="product_image"
+          name="product_image"
+          placeholder="upload an image"
+          type="file"
+        />
+      </fieldset>
+    </div>
+    <button
+      class="btn btn-add"
+    >
+      Add product
+    </button>
+  </div>
+</div>
+`;

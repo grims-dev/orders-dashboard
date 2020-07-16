@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main product list renders successfully Displays a snapshot 1`] = `
+<div
+  class="sc-Axmtr iwDgON"
+>
+  <div
+    class="Toastify"
+  />
+  <div
+    class="sc-AxhUy kSZVCr"
+    data-test="statusfilter"
+  >
+    <button
+      class="status readytotry false"
+      data-status="readytotry"
+    >
+      Ready to Try
+    </button>
+    <button
+      class="status ontheway false"
+      data-status="ontheway"
+    >
+      On the Way
+    </button>
+    <button
+      class="status inthequeue false"
+      data-status="inthequeue"
+    >
+      In the Queue
+    </button>
+    <button
+      class="status outofstock false"
+      data-status="outofstock"
+    >
+      Out of Stock
+    </button>
+  </div>
+  <p>
+    Product list is loading...
+  </p>
+</div>
+`;
+
+exports[`Main product list renders successfully renders without crashing 1`] = `null`;

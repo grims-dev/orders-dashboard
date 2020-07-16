@@ -1,0 +1,779 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product list renders successfully renders snapshot of product list 1`] = `
+<Productlist
+  formopen={false}
+  handleImageUpload={[MockFunction]}
+  handleProductRemove={[MockFunction]}
+  handleProductSubmit={[MockFunction]}
+  handleShowAllProducts={[MockFunction]}
+  loading={false}
+  productformdata={
+    Object {
+      "category": "",
+      "colour": "",
+      "customerinitials": "",
+      "productimage": "",
+      "productname": "",
+      "productstatus": "",
+      "size": "",
+    }
+  }
+  products={
+    Array [
+      Object {
+        "category": "test",
+        "colour": "red",
+        "customers_initials": "test",
+        "id": 1,
+        "product_name": "test",
+        "size": "test",
+        "status": "test",
+      },
+    ]
+  }
+  searchresult={false}
+  setformvalues={
+    Object {
+      "category": [MockFunction],
+      "colour": [MockFunction],
+      "customerinitials": [MockFunction],
+      "productimage": "",
+      "productname": [MockFunction],
+      "productstatus": [MockFunction],
+      "size": [MockFunction],
+    }
+  }
+  toggleForm={[MockFunction]}
+>
+  <div
+    data-test="productlist"
+  >
+    <styled.button
+      onClick={[MockFunction]}
+    >
+      <button
+        className="sc-AxiKw hqhEiV"
+        onClick={[MockFunction]}
+      >
+        Add product
+      </button>
+    </styled.button>
+    <Productform
+      formopen={false}
+      handleImageUpload={[MockFunction]}
+      handleProductSubmit={[MockFunction]}
+      productformdata={
+        Object {
+          "category": "",
+          "colour": "",
+          "customerinitials": "",
+          "productimage": "",
+          "productname": "",
+          "productstatus": "",
+          "size": "",
+        }
+      }
+      setformvalues={
+        Object {
+          "category": [MockFunction],
+          "colour": [MockFunction],
+          "customerinitials": [MockFunction],
+          "productimage": "",
+          "productname": [MockFunction],
+          "productstatus": [MockFunction],
+          "size": [MockFunction],
+        }
+      }
+    >
+      <styled.div
+        formopen={false}
+      >
+        <div
+          className="sc-AxjAm dCBNBl"
+        >
+          <h1>
+            Add new Order
+          </h1>
+          <div
+            className="form-wrapper"
+            data-test="productform"
+            onSubmit={[MockFunction]}
+          >
+            <div
+              className="form-row"
+            >
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="product_name"
+                >
+                  Product Name:
+                </label>
+                <input
+                  className="form-input"
+                  id="product_name"
+                  name="product_name"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="category"
+                >
+                  Category:
+                </label>
+                <input
+                  className="form-input"
+                  id="category"
+                  name="category"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="size"
+                >
+                  Size:
+                </label>
+                <select
+                  className="form-input"
+                  id="status"
+                  name="size"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    -- Select order size --
+                  </option>
+                  <option
+                    value="8"
+                  >
+                    8
+                  </option>
+                  <option
+                    value="9"
+                  >
+                    9
+                  </option>
+                  <option
+                    value="10"
+                  >
+                    10
+                  </option>
+                  <option
+                    value="11"
+                  >
+                    11
+                  </option>
+                </select>
+                 
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="colour"
+                >
+                  Colour:
+                </label>
+                <input
+                  className="form-input"
+                  id="colour"
+                  name="colour"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="title"
+                >
+                  Status:
+                </label>
+                <select
+                  className="form-input"
+                  id="status"
+                  name="productstatus"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    -- Select order status --
+                  </option>
+                  <option
+                    value="readytotry"
+                  >
+                    Ready to try
+                  </option>
+                  <option
+                    value="ontheway"
+                  >
+                    On the way
+                  </option>
+                  <option
+                    value="inthequeue"
+                  >
+                    In the queue
+                  </option>
+                  <option
+                    value="outofstock"
+                  >
+                    Out of stock
+                  </option>
+                </select>
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="customers_initials"
+                >
+                  Customer initials:
+                </label>
+                <input
+                  className="form-input"
+                  id="customers_initials"
+                  maxLength={2}
+                  name="category"
+                  onChange={[Function]}
+                  type="text"
+                  value=""
+                />
+              </fieldset>
+              <fieldset>
+                <label
+                  className="form-label"
+                  htmlFor="product_image"
+                >
+                  Product Image:
+                </label>
+                <input
+                  className="form-input"
+                  id="product_image"
+                  name="product_image"
+                  onChange={[Function]}
+                  placeholder="upload an image"
+                  type="file"
+                />
+              </fieldset>
+            </div>
+            <button
+              className="btn btn-add"
+              onClick={[MockFunction]}
+            >
+              Add product
+            </button>
+          </div>
+        </div>
+      </styled.div>
+    </Productform>
+    <Product
+      handleProductRemove={[MockFunction]}
+      key="1"
+      position={1}
+      product={
+        Object {
+          "category": "test",
+          "colour": "red",
+          "customers_initials": "test",
+          "id": 1,
+          "product_name": "test",
+          "size": "test",
+          "status": "test",
+        }
+      }
+    >
+      <styled.div
+        data-test="product"
+      >
+        <div
+          className="sc-AxirZ fgfJuC"
+          data-test="product"
+        >
+          <div
+            aria-hidden="true"
+            className="status-border status-test"
+          />
+          <img
+            alt="test"
+            className="shoe-thumbnail"
+            height="100"
+            src=""
+            width="100"
+          />
+          <h2
+            className="shoe-name"
+          >
+            test
+          </h2>
+          <div
+            className="shoe-info"
+          >
+            Category:
+            <br />
+            <strong>
+              test
+            </strong>
+          </div>
+          <div
+            className="shoe-info"
+          >
+            Size:
+            <br />
+            <strong>
+              test
+            </strong>
+          </div>
+          <div
+            className="shoe-info"
+          >
+            Colour:
+            <br />
+            <strong>
+              red
+            </strong>
+          </div>
+          <div
+            className="initials"
+          >
+            <strong>
+              test
+            </strong>
+          </div>
+          <button
+            className="btn btn-remove"
+            onClick={[Function]}
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    512,
+                    512,
+                    Array [],
+                    "f057",
+                    "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                  ],
+                  "iconName": "times-circle",
+                  "prefix": "fas",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              swapOpacity={false}
+              symbol={false}
+              title=""
+              transform={null}
+            >
+              <svg
+                aria-hidden="true"
+                className="svg-inline--fa fa-times-circle fa-w-16 "
+                data-icon="times-circle"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                style={Object {}}
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"
+                  fill="currentColor"
+                  style={Object {}}
+                />
+              </svg>
+            </FontAwesomeIcon>
+          </button>
+        </div>
+      </styled.div>
+    </Product>
+  </div>
+</Productlist>
+`;
+
+exports[`Product list renders successfully renders without crashing 1`] = `
+<div
+  data-test="productlist"
+>
+  <styled.button
+    onClick={[MockFunction]}
+  >
+    <button
+      className="sc-AxiKw hqhEiV"
+      onClick={[MockFunction]}
+    >
+      Add product
+    </button>
+  </styled.button>
+  <Productform
+    formopen={false}
+    handleImageUpload={[MockFunction]}
+    handleProductSubmit={[MockFunction]}
+    productformdata={
+      Object {
+        "category": "",
+        "colour": "",
+        "customerinitials": "",
+        "productimage": "",
+        "productname": "",
+        "productstatus": "",
+        "size": "",
+      }
+    }
+    setformvalues={
+      Object {
+        "category": [MockFunction],
+        "colour": [MockFunction],
+        "customerinitials": [MockFunction],
+        "productimage": "",
+        "productname": [MockFunction],
+        "productstatus": [MockFunction],
+        "size": [MockFunction],
+      }
+    }
+  >
+    <styled.div
+      formopen={false}
+    >
+      <div
+        className="sc-AxjAm dCBNBl"
+      >
+        <h1>
+          Add new Order
+        </h1>
+        <div
+          className="form-wrapper"
+          data-test="productform"
+          onSubmit={[MockFunction]}
+        >
+          <div
+            className="form-row"
+          >
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="product_name"
+              >
+                Product Name:
+              </label>
+              <input
+                className="form-input"
+                id="product_name"
+                name="product_name"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="category"
+              >
+                Category:
+              </label>
+              <input
+                className="form-input"
+                id="category"
+                name="category"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="size"
+              >
+                Size:
+              </label>
+              <select
+                className="form-input"
+                id="status"
+                name="size"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  -- Select order size --
+                </option>
+                <option
+                  value="8"
+                >
+                  8
+                </option>
+                <option
+                  value="9"
+                >
+                  9
+                </option>
+                <option
+                  value="10"
+                >
+                  10
+                </option>
+                <option
+                  value="11"
+                >
+                  11
+                </option>
+              </select>
+               
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="colour"
+              >
+                Colour:
+              </label>
+              <input
+                className="form-input"
+                id="colour"
+                name="colour"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="title"
+              >
+                Status:
+              </label>
+              <select
+                className="form-input"
+                id="status"
+                name="productstatus"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  -- Select order status --
+                </option>
+                <option
+                  value="readytotry"
+                >
+                  Ready to try
+                </option>
+                <option
+                  value="ontheway"
+                >
+                  On the way
+                </option>
+                <option
+                  value="inthequeue"
+                >
+                  In the queue
+                </option>
+                <option
+                  value="outofstock"
+                >
+                  Out of stock
+                </option>
+              </select>
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="customers_initials"
+              >
+                Customer initials:
+              </label>
+              <input
+                className="form-input"
+                id="customers_initials"
+                maxLength={2}
+                name="category"
+                onChange={[Function]}
+                type="text"
+                value=""
+              />
+            </fieldset>
+            <fieldset>
+              <label
+                className="form-label"
+                htmlFor="product_image"
+              >
+                Product Image:
+              </label>
+              <input
+                className="form-input"
+                id="product_image"
+                name="product_image"
+                onChange={[Function]}
+                placeholder="upload an image"
+                type="file"
+              />
+            </fieldset>
+          </div>
+          <button
+            className="btn btn-add"
+            onClick={[MockFunction]}
+          >
+            Add product
+          </button>
+        </div>
+      </div>
+    </styled.div>
+  </Productform>
+  <Product
+    handleProductRemove={[MockFunction]}
+    key="1"
+    position={1}
+    product={
+      Object {
+        "category": "test",
+        "colour": "red",
+        "customers_initials": "test",
+        "id": 1,
+        "product_name": "test",
+        "size": "test",
+        "status": "test",
+      }
+    }
+  >
+    <styled.div
+      data-test="product"
+    >
+      <div
+        className="sc-AxirZ fgfJuC"
+        data-test="product"
+      >
+        <div
+          aria-hidden="true"
+          className="status-border status-test"
+        />
+        <img
+          alt="test"
+          className="shoe-thumbnail"
+          height="100"
+          src=""
+          width="100"
+        />
+        <h2
+          className="shoe-name"
+        >
+          test
+        </h2>
+        <div
+          className="shoe-info"
+        >
+          Category:
+          <br />
+          <strong>
+            test
+          </strong>
+        </div>
+        <div
+          className="shoe-info"
+        >
+          Size:
+          <br />
+          <strong>
+            test
+          </strong>
+        </div>
+        <div
+          className="shoe-info"
+        >
+          Colour:
+          <br />
+          <strong>
+            red
+          </strong>
+        </div>
+        <div
+          className="initials"
+        >
+          <strong>
+            test
+          </strong>
+        </div>
+        <button
+          className="btn btn-remove"
+          onClick={[Function]}
+        >
+          <FontAwesomeIcon
+            border={false}
+            className=""
+            fixedWidth={false}
+            flip={null}
+            icon={
+              Object {
+                "icon": Array [
+                  512,
+                  512,
+                  Array [],
+                  "f057",
+                  "M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z",
+                ],
+                "iconName": "times-circle",
+                "prefix": "fas",
+              }
+            }
+            inverse={false}
+            listItem={false}
+            mask={null}
+            pull={null}
+            pulse={false}
+            rotation={null}
+            size={null}
+            spin={false}
+            swapOpacity={false}
+            symbol={false}
+            title=""
+            transform={null}
+          >
+            <svg
+              aria-hidden="true"
+              className="svg-inline--fa fa-times-circle fa-w-16 "
+              data-icon="times-circle"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              style={Object {}}
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm121.6 313.1c4.7 4.7 4.7 12.3 0 17L338 377.6c-4.7 4.7-12.3 4.7-17 0L256 312l-65.1 65.6c-4.7 4.7-12.3 4.7-17 0L134.4 338c-4.7-4.7-4.7-12.3 0-17l65.6-65-65.6-65.1c-4.7-4.7-4.7-12.3 0-17l39.6-39.6c4.7-4.7 12.3-4.7 17 0l65 65.7 65.1-65.6c4.7-4.7 12.3-4.7 17 0l39.6 39.6c4.7 4.7 4.7 12.3 0 17L312 256l65.6 65.1z"
+                fill="currentColor"
+                style={Object {}}
+              />
+            </svg>
+          </FontAwesomeIcon>
+        </button>
+      </div>
+    </styled.div>
+  </Product>
+</div>
+`;
