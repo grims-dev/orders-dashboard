@@ -4,8 +4,7 @@ This is a sample dashboard application used to track customer orders of footwear
 
 Details of orders can be viewed along with their status in the line, and there are methods for creation of new orders and deletion of existing ones.
 
-The primary technologies used to create this application are React/Typescript for the frontend and Node.js/Express for the backend. The database is Sqlite managed by Knex.js abstraction. Uploaded images are stored on Cloudinary.
-
+The primary technologies used to create this application are React/TypeScript for the frontend and Node.js/Express for the backend. The database is Sqlite managed by Knex.js abstraction. Uploaded images are stored on Cloudinary.
 
 ## Installation
 
@@ -107,4 +106,5 @@ Run tests on the API and server functionality.
 - Add end to end tests
 - Tidy up props and hooks 
 - Add docker 
+- Add edit capabilities
 
