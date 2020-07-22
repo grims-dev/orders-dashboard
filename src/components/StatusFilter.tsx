@@ -16,7 +16,7 @@ const StatusFiltersStyled = styled.div`
     font-size: 12px;
     letter-spacing: 2px;
     line-height: 20px;
-    transition: 0.1s ease;ß
+    transition: 0.1s ease;
     border: 1px solid rgba(255, 255, 255, 0);
     user-select: none;
 
